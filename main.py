@@ -41,4 +41,6 @@ if __name__ == "__main__":
     pi_single_thread = calculate_pi_single_thread(num_points)
     print("Pi (Single Thread):", pi_single_thread)
 
-
+    # Обчислення Пі з використанням багатопотоковості
+    pi_multi_thread = calculate_pi_multi_thread(num_points, num_threads)
+    print("Pi (Multi-Thread):", pi_multi_thread)
